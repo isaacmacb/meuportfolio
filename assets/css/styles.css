@@ -1216,4 +1216,22 @@ body.light-theme {
     padding: 0.4rem;
     border-radius: 0.5rem;
   }
-} 
+}
+/* Estilos para o botão */
+.custom-button {
+  position: absolute;
+  right: 44.5%; /* Ajuste a distância da borda direita */
+  background-color: hsl(var(--first-hue), var(--sat), var(--lig));
+  margin-top: 19px;
+  color: black;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+
