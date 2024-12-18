@@ -1072,33 +1072,7 @@ body.light-theme {
   .contact__form {
     width: 340px;
   }
-  /* .contact__info {
-    grid-template-columns: 350px;
-    justify-content: center;
-  }
-
-  .contact__form {
-    width: 360px;
-    margin: 0 auto;
-  } */
 }
-
-/* @media screen and (min-width: 767px) {
-  /* .work__container {
-    grid-template-columns: repeat(2, max-content);
-  } */
-
-/* .contact__info {
-    grid-template-columns: 300px;
-  }
-
-  .contact__container {
-    grid-template-columns: repeat(2, 325px);
-    justify-content: center;
-  }
-} */
-
-/* For large devices */
 @media screen and (min-width: 992px) {
   .container {
     margin-left: auto;
@@ -1238,13 +1212,12 @@ body.light-theme {
 /* Estilos para o botão */
 .custom-button {
   position: absolute;
-  right: 44.5%; /* Ajuste a distância da borda direita */
+  right: 43.9%; /* Ajuste a distância da borda direita */
   background-color: hsl(var(--first-hue), var(--sat), var(--lig));
   margin-top: 19px;
   color: black;
   padding: 10px;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.1rem;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
