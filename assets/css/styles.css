@@ -772,9 +772,10 @@ body.light-theme {
 
 .contact__card {
   background-color: var(--container-color);
-  padding: 2rem 1rem;
-  border-radius: 0.75rem;
+  padding: 0.6rem ;
+  border-radius: 1.75rem;
   text-align: center;
+  
 }
 
 .contact__card-icon {
