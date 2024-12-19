@@ -616,79 +616,72 @@
             
         </section>
 
-        <!--=============== CONTACT ===============-->
         <section class="contact section" id="contact">
-            <sapn class="section__subtitle">Se interessou ?</sapn>
+            <span class="section__subtitle">Se interessou ?</span>
             <h3 class="section__title">Entre em contato comigo</h3>
-
+        
             <div class="contact__container container grid">
                 <div class="contact__content">
                     <h3 class="contact__title contact__title-info">Meios de comunicação</h3>
-
+        
                     <div class="contact__info">
                         <div class="contact__card">
                             <i class='bx bx-mail-send contact__card-icon'></i>
                             <h3 class="contact__card-title">Email</h3>
                             <span class="contact__card-data">isaacmacielbe@gmail.com</span>
-
-                            <a href="mailto:example@domain.com" target="_blank" class="contact__button">
+        
+                            <a href="mailto:isaacmacielbe@gmail.com" target="_blank" class="contact__button">
                                 Inscreva-se <i class='bx bx-right-arrow contact__button-icon'></i>
                             </a>
                         </div>
-
+        
                         <div class="contact__card">
                             <i class='bx bxl-whatsapp contact__card-icon'></i>
                             <h3 class="contact__card-title">Whatsapp</h3>
                             <span class="contact__card-data">(85) 99168-6713</span>
-
-                            <a href="https://api.whatsapp.com/send?phone=+916969696969&text=Hey there!" target="_blank"
+        
+                            <a href="https://api.whatsapp.com/send?phone=+5585991686713&text=Olá!" target="_blank"
                                 class="contact__button">
                                 Inscreva-se <i class='bx bx-right-arrow contact__button-icon'></i>
                             </a>
                         </div>
-
+        
                         <div class="contact__card">
                             <i class='bx bxl-instagram contact__card-icon'></i>
                             <h3 class="contact__card-title">Instagram</h3>
                             <span class="contact__card-data">@_isaacbessa</span>
-
+        
                             <a href="https://www.instagram.com/_isaacbessa/" target="_blank" class="contact__button">
                                 Inscreva-se <i class='bx bx-right-arrow contact__button-icon'></i>
                             </a>
                         </div>
                     </div>
                 </div>
-
-                <div class="contact__content">
-                    <h3 class="contact__title contact__title-form">Envie seu texto por aqui</h3>
-
-                    <form action="" class="contact__form">
-                        <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">Nome</label>
-                            <input type="text" placeholder="Seu nome" class="contact__form-input">
-                        </div>
-
-                        <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">E-mail</label>
-                            <input type="text" placeholder="Seu email" class="contact__form-input">
-                        </div>
-
-                        <div class="contact__form-div contact__form-area">
-                            <label for="" class="contact__form-tag">Sua mensagem</label>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Escreva o que quiser"
-                                class="contact__form-input "></textarea>
-                        </div>
-
-
-                        <button class="button">
-                            Enviar mensagem
-                        </button>
-                    </form>
-
+        
+                <form id="contactForm">
+                    <div class="contact__form-div">
+                      <label for="name" class="contact__form-tag">Nome</label>
+                      <input type="text" name="nome" id="name" placeholder="Seu nome" class="contact__form-input" required>
+                    </div>
+                  
+                    <div class="contact__form-div">
+                      <label for="email" class="contact__form-tag">E-mail</label>
+                      <input type="email" name="email" id="email" placeholder="Seu email" class="contact__form-input" required>
+                    </div>
+                  
+                    <div class="contact__form-div contact__form-area">
+                      <label for="message" class="contact__form-tag">Sua mensagem</label>
+                      <textarea name="mensagem" id="message" cols="30" rows="10" placeholder="Escreva o que quiser"
+                                class="contact__form-input" required></textarea>
+                    </div>
+                  
+                    <button type="submit" class="button">
+                      Enviar mensagem
+                    </button>
+                  </form>                  
                 </div>
-
+            </div>
         </section>
-    </main>
 
     <!--=============== FOOTER ===============-->
     <footer class="footer">
@@ -756,6 +749,9 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
+
+    <!--=============== Sheeets JS ===============-->
+    <script src="assets/js/sheets.js"></script>
 </body>
 
 </html>
