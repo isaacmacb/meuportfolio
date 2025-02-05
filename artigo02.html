@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Dados</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/favicons/favicon.png">
+</head>
+<body>
+    <header class="header">
+        <h1>Banco de Dados - Guia Completo</h1>
+        <p>Aprenda a estruturar um banco de dados, criar tabelas e inserir registros de maneira eficiente.</p>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>O que é um Banco de Dados?</h2>
+            <p>Um banco de dados é um sistema organizado para armazenar, gerenciar e recuperar informações de maneira eficiente. Ele permite a manipulação segura e estruturada de grandes volumes de dados.</p>
+        </section>
+
+        <section class="section">
+            <h2>Tipos de Banco de Dados</h2>
+            <ul>
+                <li><b>Relacional (SQL)</b>: Usa tabelas estruturadas com relações entre dados (Ex: MySQL, PostgreSQL, SQL Server).</li>
+                <li><b>Não Relacional (NoSQL)</b>: Mais flexível, usa documentos, colunas ou grafos (Ex: MongoDB, Firebase, Cassandra).</li>
+                <li><b>Banco de Dados em Nuvem</b>: Gerenciado por provedores e escalável conforme demanda (Ex: AWS RDS, Google Cloud SQL).</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Comandos Básicos de SQL</h2>
+            <p>SQL (Structured Query Language) é a linguagem utilizada para interagir com bancos de dados relacionais. Veja os comandos essenciais:</p>
+            <ul>
+                <li><code>CREATE DATABASE nome_do_banco;</code> → Cria um novo banco de dados.</li>
+                <li><code>CREATE TABLE nome_da_tabela (...);</code> → Cria uma nova tabela.</li>
+                <li><code>INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2);</code> → Insere dados.</li>
+                <li><code>SELECT * FROM tabela;</code> → Retorna todos os dados de uma tabela.</li>
+                <li><code>UPDATE tabela SET coluna=valor WHERE condição;</code> → Atualiza dados específicos.</li>
+                <li><code>DELETE FROM tabela WHERE condição;</code> → Remove registros de uma tabela.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Boas Práticas de Banco de Dados</h2>
+            <ul>
+                <li><b>Defina Chaves Primárias:</b> Cada tabela deve ter uma chave única para identificação.</li>
+                <li><b>Normalize os Dados:</b> Evite redundâncias e melhore a organização do banco.</li>
+                <li><b>Utilize Índices:</b> Melhore a performance de buscas e consultas.</li>
+                <li><b>Faça Backups:</b> Proteja os dados contra falhas e perda de informações.</li>
+                <li><b>Controle de Acessos:</b> Restrinja permissões para evitar acessos indevidos.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Exemplo Prático de Banco de Dados</h2>
+            <p>Veja um exemplo completo de criação de um banco de dados, tabela e inserção de dados:</p>
+            <pre>
+CREATE DATABASE empresa;
+
+USE empresa;
+
+CREATE TABLE funcionarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    cargo VARCHAR(50),
+    salario DECIMAL(10,2),
+    data_admissao DATE
+);
+
+INSERT INTO funcionarios (nome, cargo, salario, data_admissao) 
+VALUES ('Carlos Silva', 'Analista de Dados', 5000.00, '2023-01-10');
+
+SELECT * FROM funcionarios;
+            </pre>
+             <!-- Botão para voltar à página inicial -->
+        <a href="https://isaacportifolio.shop" class="back-button">⬅ Voltar para Página Inicial</a>
+        </section>
+    </main>
+</body>
+</html>

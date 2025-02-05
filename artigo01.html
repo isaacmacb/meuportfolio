@@ -1,0 +1,76 @@
+<!-- powerbi.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de Power BI</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/favicons/favicon.png">
+</head>
+<body>
+    <div class="powerbi-container">
+        <h1 class="powerbi-title">Dicas de Power BI</h1>
+        <p class="powerbi-intro">Descubra truques e boas práticas para extrair o máximo do Power BI e transformar dados em insights valiosos.</p>
+        
+        <h2 class="powerbi-subtitle">O que é Power BI?</h2>
+        <p class="powerbi-text">O Power BI é uma ferramenta de Business Intelligence (BI) da Microsoft que permite a criação de relatórios interativos e dashboards personalizados.</p>
+        
+        <h2 class="powerbi-subtitle">Principais atalhos do Power BI</h2>
+        <ul class="powerbi-list">
+            <li><b>Ctrl + C / Ctrl + V</b> - Copiar e colar objetos</li>
+            <li><b>Ctrl + Z</b> - Desfazer a última ação</li>
+            <li><b>Ctrl + Y</b> - Refazer a última ação</li>
+            <li><b>F5</b> - Atualizar o relatório</li>
+            <li><b>Ctrl + Shift + L</b> - Ativar/desativar filtros</li>
+        </ul>
+        
+        <h2 class="powerbi-subtitle">Melhores práticas</h2>
+        <p class="powerbi-text">Utilize gráficos adequados, mantenha seus dados organizados e evite sobrecarregar os dashboards com informações desnecessárias.</p>
+        
+        <h2 class="powerbi-subtitle">Tipos de Gráficos no Power BI</h2>
+        <ul class="powerbi-list">
+            <li><b>Gráficos de Barras e Colunas</b> - Ideais para comparar valores entre categorias.</li>
+            <li><b>Gráficos de Pizza</b> - Úteis para mostrar proporções e distribuições.</li>
+            <li><b>Gráficos de Linha</b> - Melhor opção para visualizar tendências ao longo do tempo.</li>
+            <li><b>Gráficos de Área</b> - Destacam a magnitude das mudanças ao longo do tempo.</li>
+            <li><b>Mapas</b> - Para análises geográficas e insights espaciais.</li>
+        </ul>
+        
+        <h2 class="powerbi-subtitle">Colunas Calculadas vs. Medidas DAX</h2>
+        <ul class="powerbi-list">
+            <li><b>Colunas Calculadas</b> - São calculadas linha por linha e armazenadas no modelo de dados.</li>
+            <li><b>Medidas DAX</b> - São dinâmicas e recalculadas conforme os filtros e agregações do relatório.</li>
+        </ul>
+        
+        <h2 class="powerbi-subtitle">Relacionamentos entre Tabelas</h2>
+        <p class="powerbi-text">No Power BI, os relacionamentos entre tabelas são fundamentais para garantir que os dados sejam bem interpretados.</p>
+        <ul class="powerbi-list">
+            <li><b>Relacionamentos Um-para-Muitos</b> - O mais comum, onde uma tabela de fatos se conecta a uma tabela de dimensões.</li>
+            <li><b>Relacionamentos Muitos-para-Muitos</b> - Deve ser evitado quando possível, pois pode gerar cálculos imprecisos.</li>
+            <li><b>Relacionamentos Um-para-Um</b> - Menos comum, mas útil quando tabelas contêm informações complementares.</li>
+        </ul>
+        
+        <h2 class="powerbi-subtitle">Otimização e Performance</h2>
+        <ul class="powerbi-list">
+            <li><b>Reduza o Volume de Dados</b> - Exclua colunas desnecessárias e use agregações sempre que possível.</li>
+            <li><b>Use DirectQuery ou Import</b> - Se precisar de dados em tempo real, use DirectQuery; para melhor desempenho, prefira Import.</li>
+            <li><b>Evite Colunas Calculadas Sempre Que Possível</b> - Medidas DAX são mais eficientes e dinâmicas.</li>
+            <li><b>Utilize Indexação e Chaves Primárias</b> - Para melhorar a performance nas consultas ao banco de dados.</li>
+        </ul>
+        
+        <h2 class="powerbi-subtitle">Dicas avançadas para Power BI</h2>
+        <ul class="powerbi-list">
+            <li><b>Criação de Medidas DAX</b> - Use funções como <code>SUMX</code> e <code>CALCULATE</code> para cálculos avançados.</li>
+            <li><b>Modelagem de Dados</b> - Relacione tabelas corretamente para evitar duplicações e inconsistências.</li>
+            <li><b>Uso de Parâmetros</b> - Facilite análises dinâmicas permitindo que usuários escolham filtros.</li>
+            <li><b>Personalização de Visualizações</b> - Explore gráficos customizados para melhorar a apresentação dos dados.</li>
+            <li><b>Desempenho do Relatório</b> - Evite carregar grandes volumes de dados desnecessários e use agregações.</li>
+        </ul>
+
+        <!-- Botão para voltar à página inicial -->
+        <a href="https://isaacportifolio.shop" class="back-button">⬅ Voltar para Página Inicial</a>
+    </div>
+</body>
+</html>
