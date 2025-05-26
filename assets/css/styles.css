@@ -488,6 +488,7 @@ body.light-theme {
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: 1.25rem;
+  min-height: 300px;
 }
 
 .skills__title {
